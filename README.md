@@ -35,16 +35,3 @@ Sistem ini terdiri dari dua komponen utama:
 2. **ETollCard.h / ETollCard.cpp**: Mewakili kartu e-Toll yang menyimpan informasi ID, saldo, dan golongan kendaraan, serta memiliki fungsi untuk mengurangi saldo saat pembayaran.
 3. **ETollSystem.h / ETollSystem.cpp**: Mewakili sistem yang mengelola transaksi tol, termasuk pendaftaran kartu, verifikasi, perhitungan jarak, dan pemrosesan pembayaran.
 4. **main.cpp**: Program utama yang menjalankan simulasi transaksi, termasuk interaksi pengguna untuk melakukan tap-in dan tap-out, serta menampilkan status transaksi.
-
-### **Prasyarat Sistem:**
-
-- C++ Compiler (minimal C++14)
-- Sistem operasi yang mendukung pengembangan C++ (Windows, Linux, macOS)
-- IDE seperti CLion atau Visual Studio Code dengan plugin C++ yang sesuai.
-
-### **Cara Menjalankan Sistem:**
-
-1. Clone repository ini ke mesin lokal Anda.
-2. Buka proyek menggunakan IDE yang mendukung C++ (misalnya CLion).
-3. Bangun dan jalankan proyek.
-4. Ikuti instruksi di terminal untuk melakukan simulasi transaksi e-Toll.
